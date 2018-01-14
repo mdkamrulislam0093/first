@@ -1,0 +1,624 @@
+@font-face {
+	font-family:'mouse';
+	src:url(fonts/Quicksand-Bold.woff); format:(woff);
+}
+body {
+	  color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+	}
+
+@media (min-width: 1200px) { 
+
+		.portolio-img {
+			position: relative;
+		}
+
+	.col-lg-3 .outside > img {
+	    height: 190px;
+	    width: 100%;
+	}
+	.portolio-img .col-lg-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.client-inner {
+	    margin: auto;
+	    width: 60%;
+	}
+	.carousel-indicators {
+	    bottom: 0;
+	    left: 0;
+	    list-style: outside none none;
+	    margin-left: 0;
+	    padding-left: 0;
+	    position: relative;
+	    text-align: center;
+	    width: 100%;
+	    z-index: 0;
+	}
+	.img-responsive {
+	    width: 100%;
+	}
+
+		nav {
+			padding: 20px 0 7px;
+		}
+		nav .navbar-brand {
+		 padding: 1px 0 0 15px;
+		}
+		.nav.navbar-nav.navbar-right a {
+	    text-transform: uppercase;
+	    font-family: "Roboto",sans-serif;
+	    font-size: 14px;
+	    padding: 6px 15px;
+	    transition: all 0.5s ease 0s;
+	    color:#000;
+
+		}
+		.navbar-default .navbar-nav .active a {
+		background-color:#fc7700;
+		color:#fff;
+		}
+		.nav.navbar-nav.navbar-right {
+		margin-top: 8px;
+		}
+		.item > img {
+	    height: 1000px;
+	    width: 100%;
+		}
+
+		.carousel-caption 	{
+	    height: 100%;
+		}
+	    .carousel-caption h1 {
+	    color: #00edff;
+	    display: inline-block;
+	    font-family: roboto;
+	    font-size: 55px;
+	    font-weight: 800;
+	    margin-bottom: 40px;
+	    text-shadow: none;
+	    text-transform: uppercase;
+	    }
+	    .carousel-caption p {
+	 	color: #f6f6f6;
+	    font-family: roboto;
+	    font-size: 24px;
+	    font-weight: 300;
+	    margin-bottom: 59px;
+	    margin-top: 0;
+	    text-shadow: none;
+		}
+		.carousel-caption a {
+	 		background-color: #fc7700;
+	    border: 0 none;
+	    box-shadow: 0 0 0 2px #fc7700 inset;
+	    color: #fff;
+	    font-size: 18px;
+	    font-weight: 800;
+	    margin: 55px 0;
+	    line-height: 55px;
+	    padding: 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	    transition: all 0.3s ease 0s;
+	    width: 190px;
+		}
+
+		.carousel-caption a:hover {
+	 		background-color: #43484e;
+	    box-shadow: 0 0 0 2px #43484e inset;
+	    color: #fff;
+		}
+		section {
+			padding:75px 0;
+		}
+		.title > h2 > span {
+			color: #fc7700;
+		}
+
+		#About {
+			background-color: #f6f6f6;
+		}
+		.media {
+		background: #fff none repeat scroll 0 0;
+	    padding: 40px 31px;
+		}
+		.media-left {
+	    padding-right: 26px
+		}
+		.slide-tab li i {
+		color: #fc7700;
+	    padding-right: 7px
+		}
+		.slide-tab li a {
+		color: #fc7700;
+		}
+		#Services {
+			background: url(Images/slide2.jpg);
+			color:#fff;
+		}
+		#Services .first {
+			background-color: rgba(0, 0, 0, 0.71);
+			padding:28px;
+			text-align: center;
+		}
+		#Services .first:hover {
+			background-color: #fc7700;
+			transition: 1s;
+		}
+		#Services .first i {
+	 	background: #fff none repeat scroll 0 0;
+	    border-radius: 50%;
+	    color: #fc7700;
+	    display: block;
+	    font-size: 103px;
+	    height: 175px;
+	    line-height: 1.75;
+	    margin: 10px 22%;
+	    text-align: center;
+	    width: 175px;
+		}
+		#clients-slide a span {
+		left: 49%;
+	    margin: 12px 0;
+		}
+		.slide-team {
+			background-color: #666;
+			color:#fff;
+			padding:22px;
+			text-align:center;
+		}
+		.eye {
+			background-color: #f7f7f7;
+			padding:25px;
+			transition:all 1s ease 0s;
+			margin-bottom: 25px;
+		}
+		.eye:hover {
+			background-color: #43484e;
+			color: #fff;
+		}
+		.blog-btn {
+	    border: 1px solid #fc7700;
+	    border-radius: 5px;
+	    color: #000;
+	    margin-top: 13px;
+	    box-shadow:0 0 2px 0 #ddd;
+		}
+		.eye:hover a {
+			background: #fc7700 none repeat scroll 0 0;
+			color:#fff;
+			border:1px solid #fff;
+		}
+		#Clients-say {
+		background: url(Images/service-bg.jpg);
+		}
+		.portolio-img .outside {
+			position: relative;
+		}
+		.portolio-img .inside {
+		background-color: #fff;
+		color: #000;
+		height: 100%;
+	    left: 0;
+	    overflow: hidden;
+	    position: absolute;
+	    text-align: center;
+	    top: 0;
+	    width: 100%;
+	    opacity: 0;
+	    box-sizing: border-box;
+	    border: 2px solid #333;
+	    transition: all 0.5s linear 0s
+		
+		}
+		.portolio-img .inside:hover {
+		opacity: 1;
+		cursor: zoom-in;
+		border: 2px solid #333;
+		transition: all 0.5s linear 0s
+		}
+
+		.portolio-img .inside .inside-btn  {
+	 	border: 3px solid #666;
+	    border-radius: 50%;
+	    font-size: 18px;
+	    height: 42px;
+	    margin-left: 9px;
+	    padding: 5px;
+	    width: 42px;
+	    margin-bottom: 62px;
+		}
+	#view {
+		position: absolute;
+		border: 10px solid #333;
+		z-index: 99999;
+		width: 1000px;
+		animation: viewimg 2s;
+		display: none;
+	}
+
+	@keyframes viewimg {
+	    from {transform: scale(0)}
+	    to {transform: scale(1)}
+	}
+
+	#view > img {
+		width: 100%;
+		height: auto;
+	}
+	#close {
+		color: #fff;
+		font-size: 67px;
+		position: absolute;
+		top: -23px;
+		right: 4px;
+		cursor: pointer;
+	}
+	.navbar-nav > li {
+		float: left;
+		padding: 10px 15px;
+		border: 1px solid #ddd;
+		cursor: pointer;
+	}
+
+	.row.portfolio_menu {
+		margin: 0;
+		background: #F8F8F8;
+		padding: 7px;
+	}
+	.tab-content {
+		display:inline-block;
+	}
+	.progress-bar {
+		background-color: blue;
+		width: 0;
+		text-align: center;
+		display: table-cell;
+		box-sizing: content-box;
+		padding: 6px 0;
+	}
+	.progress-bar span {
+		display: none;
+	}
+	.progress {
+		box-sizing: content-box;
+		height: 32px;
+		display: table;
+		width: 500px;
+	}
+	#second-slide {
+		margin-top: 93px;
+	}
+	.row {
+		margin-right: 0;
+	}
+	.animation {
+		animation: icon_animation 1s;
+	}
+
+	@keyframes icon_animation {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}
+
+ }
+
+
+ @media  (max-width: 1199px) and (min-width: 992px) { 
+
+ 			.portolio-img {
+			position: relative;
+		}
+
+	.col-lg-3 .outside > img {
+	    height: 190px;
+	    width: 100%;
+	}
+	.portolio-img .col-lg-3 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.client-inner {
+	    margin: auto;
+	    width: 60%;
+	}
+	.carousel-indicators {
+	    bottom: 0;
+	    left: 0;
+	    list-style: outside none none;
+	    margin-left: 0;
+	    padding-left: 0;
+	    position: relative;
+	    text-align: center;
+	    width: 100%;
+	    z-index: 0;
+	}
+	.img-responsive {
+	    width: 100%;
+	}
+
+		nav {
+			padding: 20px 0 7px;
+		}
+		nav .navbar-brand {
+		 padding: 1px 0 0 15px;
+		}
+		.nav.navbar-nav.navbar-right a {
+	    text-transform: uppercase;
+	    font-family: "Roboto",sans-serif;
+	    font-size: 14px;
+	    padding: 6px 8px;
+	    transition: all 0.5s ease 0s;
+	    color:#000;
+		}
+		.carousel-caption {
+			width: 91%;
+			margin: auto;
+			left: 0;
+		}		
+		.navbar-default .navbar-nav .active a {
+		background-color:#fc7700;
+		color:#fff;
+		}
+		.nav.navbar-nav.navbar-right {
+		margin-top: 8px;
+		}
+		.item > img {
+	    height: 1000px;
+	    width: 100%;
+		}
+
+		.carousel-caption 	{
+	    height: 100%;
+		}
+	    .carousel-caption h1 {
+	    color: #00edff;
+	    display: inline-block;
+	    font-family: roboto;
+	    font-size: 55px;
+	    font-weight: 800;
+	    text-shadow: none;
+	    text-transform: uppercase;
+	    }
+			.col-lg-6 {
+			width: 50%;
+			float: left;
+			overflow: hidden;
+			}
+	    .carousel-caption p {
+	 	color: #f6f6f6;
+	    font-family: roboto;
+	    font-size: 24px;
+	    font-weight: 300;
+	    margin-bottom: 59px;
+	    margin-top: 0;
+	    text-shadow: none;
+		}
+		.carousel-caption a {
+	 	background-color: #fc7700;
+	    border: 0 none;
+	    box-shadow: 0 0 0 2px #fc7700 inset;
+	    color: #fff;
+	    font-size: 18px;
+	    font-weight: 800;
+	    margin: 55px 0;
+	    line-height: 55px;
+	    padding: 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	    transition: all 0.3s ease 0s;
+	    width: 190px;
+		}
+
+		.carousel-caption a:hover {
+	 	background-color: #43484e;
+	    box-shadow: 0 0 0 2px #43484e inset;
+	    color: #fff;
+		}
+		section {
+			padding:75px 0;
+		}
+		.title > h2 > span {
+			color: #fc7700;
+		}
+
+		#About {
+			background-color: #f6f6f6;
+		}
+		.media {
+		background: #fff none repeat scroll 0 0;
+	    padding: 40px 31px;
+		}
+		.media-left {
+	    padding-right: 26px
+		}
+		.slide-tab li i {
+		color: #fc7700;
+	    padding-right: 7px
+		}
+		.slide-tab li a {
+		color: #fc7700;
+		}
+		#Services {
+			background: url(Images/slide2.jpg);
+			color:#fff;
+		}
+		#Services .first {
+			background-color: rgba(0, 0, 0, 0.71);
+			padding:28px;
+			text-align: center;
+		}
+		#Services .first:hover {
+			background-color: #fc7700;
+			transition: 1s;
+		}
+		#Services .first i {
+	 	background: #fff none repeat scroll 0 0;
+	    border-radius: 50%;
+	    color: #fc7700;
+	    display: block;
+	    font-size: 103px;
+	    height: 175px;
+	    line-height: 1.75;
+	    margin: 10px 12%;
+	    text-align: center;
+	    width: 175px;
+		}
+		#clients-slide a span {
+		left: 49%;
+	    margin: 12px 0;
+		}
+		.slide-team {
+			background-color: #666;
+			color:#fff;
+			padding:22px;
+			text-align:center;
+		}
+		.eye {
+			background-color: #f7f7f7;
+			padding:25px;
+			transition:all 1s ease 0s;
+			margin-bottom: 25px;
+		}
+		.eye:hover {
+			background-color: #43484e;
+			color: #fff;
+		}
+		.blog-btn {
+	    border: 1px solid #fc7700;
+	    border-radius: 5px;
+	    color: #000;
+	    margin-top: 13px;
+	    box-shadow:0 0 2px 0 #ddd;
+		}
+		.eye:hover a {
+			background: #fc7700 none repeat scroll 0 0;
+			color:#fff;
+			border:1px solid #fff;
+		}
+		#Clients-say {
+		background: url(Images/service-bg.jpg);
+		}
+		.portolio-img .outside {
+			position: relative;
+		}
+		.portolio-img .inside {
+		background-color: #fff;
+		color: #000;
+		height: 100%;
+	    left: 0;
+	    overflow: hidden;
+	    position: absolute;
+	    text-align: center;
+	    top: 0;
+	    width: 100%;
+	    opacity: 0;
+	    box-sizing: border-box;
+	    border: 2px solid #333;
+	    transition: all 0.5s linear 0s
+		
+		}
+		.portolio-img .inside:hover {
+		opacity: 1;
+		cursor: zoom-in;
+		border: 2px solid #333;
+		transition: all 0.5s linear 0s
+		}
+
+		.portolio-img .inside .inside-btn  {
+	 	border: 3px solid #666;
+	    border-radius: 50%;
+	    font-size: 18px;
+	    height: 42px;
+	    margin-left: 9px;
+	    padding: 5px;
+	    width: 42px;
+	    margin-bottom: 62px;
+		}
+
+
+
+
+
+
+
+	#view {
+		position: absolute;
+		border: 10px solid #333;
+		z-index: 99999;
+		width: 677px;
+		animation: viewimg 2s;
+		display: none;
+		left: 100px;
+	}
+
+	@keyframes viewimg {
+	    from {transform: scale(0)}
+	    to {transform: scale(1)}
+	}
+
+	#view > img {
+		width: 100%;
+		height: auto;
+	}
+	#close {
+		color: #fff;
+		font-size: 52px;
+		position: absolute;
+		top: -23px;
+		right: 4px;
+		cursor: pointer;
+	}
+	.navbar-nav > li {
+		float: left;
+		padding: 4px 11px;
+		border: 1px solid #ddd;
+		cursor: pointer;
+	}
+
+	.row.portfolio_menu {
+		margin: 0;
+		background: #F8F8F8;
+		padding: 7px;
+	}
+	.tab-content {
+		display:inline-block;
+	}
+	.progress-bar {
+		background-color: blue;
+		width: 0;
+		text-align: center;
+		display: table-cell;
+		box-sizing: content-box;
+		padding: 6px 0;
+	}
+	.progress-bar span {
+		display: none;
+	}
+	.progress {
+		box-sizing: content-box;
+		height: 32px;
+		display: table;
+		width: 450px;
+	}
+	#second-slide {
+		margin-top: 93px;
+	}
+	.row {
+		margin-right: 0;
+	}
+	.animation {
+		animation: icon_animation 1s;
+	}
+
+	@keyframes icon_animation {
+		from { transform: rotate(0deg); }
+		to { transform: rotate(360deg); }
+	}
+
+
+ }
