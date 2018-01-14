@@ -637,8 +637,7 @@
       	
       	$(".inside .fa.fa-search-plus.inside-btn").click(function(){
 
-      		var big_img = $(this).parent().prev().children("img").attr("data-img");
-      		// $(".inside").prev().children("img").attr("src");
+      		var big_img = $(this).parent().prev().children("img").attr("src");
       		$("#view").find("img").attr("src", big_img);
 
       		$("#view").css("display", "block");
@@ -649,27 +648,27 @@
       	});
       
 				$("#all").click(function(){
-					$(".portolio-img .col-lg-3 col-md-3.all").show(500);
+					$(".portolio-img .col-lg-3.col-md-3.all").show(500);
 				});      	
 
 				$("#html").click(function(){
-					$(".col-lg-3 col-md-3.wordpress, .col-lg-3 col-md-3.joomla, .col-lg-3 col-md-3.megento").hide(1000);
+					$(".col-lg-3.col-md-3.wordpress, .col-lg-3.col-md-3.joomla, .col-lg-3.col-md-3.megento").hide(1000);
 					$(".portolio-img .col-lg-3 col-md-3.html").show(1000);
 				});      	
 
 				
 				$("#wordpress").click(function(){
-					$(".col-lg-3 col-md-3.html, .col-lg-3 col-md-3.joomla, .col-lg-3 col-md-3.megento").hide(1000);
+					$(".col-lg-3.col-md-3.html, .col-lg-3.col-md-3.joomla, .col-lg-3.col-md-3.megento").hide(1000);
 					$(".portolio-img .col-lg-3 col-md-3.wordpress").show(1000);
 				});      	
 
 				$("#joomla").click(function(){
-					$(".col-lg-3 col-md-3.html, .col-lg-3 col-md-3.wordpress, .col-lg-3 col-md-3.megento").hide(1000);
+					$(".col-lg-3.col-md-3.html, .col-lg-3.col-md-3.wordpress, .col-lg-3.col-md-3.megento").hide(1000);
 					$(".portolio-img .col-lg-3 col-md-3.joomla").show(1000);
 				});      	
 
 				$("#megento").click(function(){
-					$(".col-lg-3 col-md-3.html, .col-lg-3 col-md-3.joomla, .col-lg-3 col-md-3.wordpress").hide(1000);
+					$(".col-lg-3.col-md-3.html, .col-lg-3.col-md-3.joomla, .col-lg-3.col-md-3.wordpress").hide(1000);
 					$(".portolio-img .col-lg-3 col-md-3.megento").show(1000);
 				});      	
 
